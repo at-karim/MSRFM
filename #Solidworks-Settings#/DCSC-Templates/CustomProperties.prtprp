@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CPTemplate>
+  <AppVersion>26</AppVersion>
+  <CPSheet>
+    <GroupBox Label="Designer" PropName="Groupbox5" DefaultState="Expanded">
+      <Control Label="Author" PropName="Author" ApplyTo="Config" Type="TextBox" ReadOnly="False" DefaultValue="Tawab Karim" Mode="Text" />
+      <Control Label="Department" PropName="Group" ApplyTo="Config" Type="TextBox" ReadOnly="True" DefaultValue="DCSC - 3ME" Mode="Text" />
+      <Control Label="Email" PropName="ContactMail" ApplyTo="Config" Type="TextBox" ReadOnly="True" DefaultValue="A.T.Karim@tudelft.nl" Mode="Text" />
+      <Control Label="Phone" PropName="ContactPhone" ApplyTo="Config" Type="TextBox" ReadOnly="True" DefaultValue="+31657257797" Mode="Text" />
+      <Control Label="Last Edited Date" PropName="DrawnDate" ApplyTo="Config" Type="TextBox" ReadOnly="True" DefaultValue="SW-Last Saved Date" Mode="SWProperty" />
+      <Control Label="Approved for Manufacturing" PropName="ManufacturingApproval" ApplyTo="Config" Type="CheckBox" ReadOnly="False" DefaultValue="0" PropValueChecked="Checked" PropValueUnchecked="Unchecked">
+        <ChildControl PropName="CheckedDate" Visibility="IsChecked=true" />
+        <ChildControl PropName="Description" Visibility="IsChecked=true" />
+        <ChildControl PropName="Groupbox8" Visibility="IsChecked=true" />
+      </Control>
+      <Control Label="Approval Date" PropName="CheckedDate" ApplyTo="Config" Type="TextBox" ReadOnly="True" DefaultValue="SW-Long Date" Mode="SWProperty" />
+      <Control Label="Part Number" PropName="Description" ApplyTo="Config" Type="TextBox" ReadOnly="False" DefaultValue="" Mode="Text" />
+    </GroupBox>
+    <GroupBox Label="General Attributes" PropName="Groupbox8" DefaultState="Expanded">
+      <Control Label="Main Manefacturing Process" PropName="Manefaturing Process" ApplyTo="Config" Type="ComboBox" ReadOnly="False" UserDefineable="False">
+        <Data Path="C:\Users\tawab\Documents\DCSC - Work\#Solidworks-Settings#\Templates\ManefacturingProcesses.txt" SourceType="Text" />
+      </Control>
+      <Control Label="Material" PropName="Material" ApplyTo="Config" Type="TextBox" ReadOnly="True" DefaultValue="SW-Material" Mode="SWProperty" />
+      <Control Label="Weight" PropName="Weight" ApplyTo="Config" Type="TextBox" ReadOnly="True" DefaultValue="SW-Mass" Mode="SWProperty" />
+      <Control Label="Finish" PropName="Finish" ApplyTo="Config" Type="ComboBox" ReadOnly="False" UserDefineable="True">
+        <Data Path="C:\Users\tawab\Documents\DCSC - Work\#Solidworks-Settings#\Templates\Finishing.txt" SourceType="Text" />
+      </Control>
+      <Control Label="Linear Tolerance" PropName="Linear Tolerance" ApplyTo="Config" Type="TextBox" ReadOnly="False" DefaultValue="" Mode="Text" />
+      <Control Label="Angular Tolerance" PropName="Angular Tolerance" ApplyTo="Config" Type="TextBox" ReadOnly="False" DefaultValue="" Mode="Text" />
+    </GroupBox>
+  </CPSheet>
+</CPTemplate>
