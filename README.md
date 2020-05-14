@@ -7,7 +7,7 @@ Batches contains production zip files that have been made.
 Concepts contains unfinished projects and parts.
 Drawings contains the drawings (pdf, dxf and SLDDRW) of parts and projects.
 Parts contains all the approved parts ordered in accordance to use.
-Projects contains all the approved projects.
+Projects contains all the approved projects and the BOM (Bill of Materials).
 EXAMPLES CAN BE FOUND AT THE BOTTOM
 ---///---
 
@@ -92,6 +92,7 @@ Tawab finsihed the project and want to get approval
   - Check if all parts are defined properly.
   - Check if there are no errors in the project.
   - Check if all necessairy drawings have been made.
+  - Check if BOM has been made.
   - Request approval from supervisor.
 
 Tawab gained approval from supervisor.
@@ -111,5 +112,6 @@ Supervisor sees a request has been made to merge with master branch.
   - Checks if the names have been changed properly.
   - Checks if the files are being saved in the correct places.
   - Checks if all files have been removed from the Concepts folder.
+  - Checks if BOM has been created.
   - Merges branches.
 ---///---
