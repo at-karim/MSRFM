@@ -12,7 +12,7 @@
 
 This repository holds the open source modular super-resolution fluorescent microscope started by TU Delft and developed by you. All solidworks parts can be found here, ranging from currently used to the ones currently in development.
 More information can be found on the website:
-- qnano.jcnossen.nl
+- [website](qnano.jcnossen.nl)
 
 ## Navigating MSRFM
 
